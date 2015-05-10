@@ -2,16 +2,19 @@
 Pod::Spec.new do |s|
 
   s.name         = "DLSuit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "A complete suit of awesome wrappers for another libraries. But Hey! We hace created some cool libraries too. Enjoy it!."
 
   s.description  = <<-DESC
-                   A longer description of DLSuit in Markdown format.
+                   Cool library to use in a High Level mode AFNetworking and TSMessages. Aditionally you'll find some cool utilities that 
+                   every developer should have in every iOS project.
 
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                   Include: 
+                      * JSON Requests
+                      * Validations
+                      * Connection check (Thanks to Reachability)
+                      * Communication trought components (Thanks to Tolo)
+
                    DESC
 
   s.homepage     = "https://github.com/dragonflylabs/DLSuit"
@@ -21,7 +24,7 @@ Pod::Spec.new do |s|
   s.authors            = { "Dragonfly Labs." => "daniel@dflabs.io" , "Daniel García Alvarado" => "daniel@dflabs.io"}
   s.social_media_url   = "http://twitter.com/fullstackdaniel"
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/dragonflylabs/DLSuit.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/dragonflylabs/DLSuit.git", :tag => "0.0.3" }
   s.source_files  = "Classes", "DLSuit"
   s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
